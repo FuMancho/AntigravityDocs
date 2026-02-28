@@ -26,3 +26,11 @@
 ## Community & Open Source
 - [GitHub — google/antigravity](https://github.com/google/antigravity)
 - [Discord](https://discord.gg/antigravity)
+
+## Reference Sources (for Jules)
+- [Official Docs](https://antigravity.google/docs)
+- [Changelog](https://antigravity.google/changelog)
+- [GitHub Releases Atom Feed](https://github.com/google/antigravity/releases.atom)
+- [Google Developers Blog](https://developers.googleblog.com/)
+- [Google AI Blog](https://blog.google/technology/ai/)
+

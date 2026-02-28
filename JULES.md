@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This repository contains community-maintained documentation for **Google Antigravity** — the agent-first AI development platform. Jules is responsible for keeping it up-to-date with the official sources.
+This repository contains community-maintained documentation for the **Google Antigravity** (Antigravity IDE). Jules is responsible for keeping it up-to-date with the official source.
 
 ## Documentation Source
 
@@ -10,7 +10,7 @@ This repository contains community-maintained documentation for **Google Antigra
 |---|---|
 | Start URL | `https://antigravity.im/documentation` |
 | Base Path | `/` |
-| Official Domains | `antigravity.google`, `antigravity.im` |
+| Official Domain | antigravity.google, antigravity.im |
 
 ## Weekly Update Procedure
 
@@ -44,7 +44,7 @@ This saves raw scraped text into `scraped_docs/`.
 ### 4. Validate
 
 - Ensure all internal relative links resolve correctly.
-- Ensure all external links point to `antigravity.google` or `antigravity.im` (see Link Handling Policy below for third-party rules).
+- Ensure all external links point to antigravity.google or antigravity.im (see Link Handling Policy below for third-party rules).
 - Verify heading hierarchy (`#` → `##` → `###`, no skipped levels).
 - Code blocks must specify a language (e.g., ` ```bash `).
 
@@ -74,7 +74,7 @@ Always consult `docs/official-links.md` as the single source of truth for verifi
 
 ### Official Links
 
-- **Allowed domains:** `antigravity.google`, `antigravity.im`
+- **Allowed domains:** antigravity.google, antigravity.im
 - When a link can be replaced with an official equivalent from `docs/official-links.md`, do so.
 
 ### Third-Party Links — Decision Rules
@@ -83,8 +83,8 @@ Always consult `docs/official-links.md` as the single source of truth for verifi
 |---|---|---|
 | GitHub repos (`github.com`) | ✅ **Keep** | `github.com/google/antigravity` |
 | Package registries (`npmjs.com`, `pypi.org`) | ✅ **Keep** | Package pages |
-| Google Cloud docs (`cloud.google.com`) | ✅ **Keep** | Cloud integration guides |
-| Google Developers Blog (`developers.googleblog.com`) | ✅ **Keep** | Official announcements |
+| Google Cloud docs (cloud.google.com) | ✅ **Keep** | Integration guides |
+| Google Developers Blog (developers.googleblog.com) | ✅ **Keep** | Integration guides |
 | Personal blogs, Medium, Dev.to | ❌ **Remove** | Replace with official equivalent or remove entirely |
 | Forums, Reddit, Stack Overflow | ❌ **Remove** | Not authoritative |
 | Unofficial mirrors or aggregators | ❌ **Remove** | Not trustworthy |

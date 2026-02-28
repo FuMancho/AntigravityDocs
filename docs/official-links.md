@@ -34,3 +34,11 @@
 - [Google Developers Blog](https://developers.googleblog.com/)
 - [Google AI Blog](https://blog.google/technology/ai/)
 
+## Authentication & OAuth
+- [Getting Started — Google Sign-In](https://codelabs.developers.google.com/antigravity-getting-started)
+- [MCP Integration Auth](https://antigravity.google/docs/mcp-integration)
+- [opencode-antigravity-auth (GitHub)](https://github.com/opencode-antigravity-auth)
+- [opencode-google-antigravity-auth (npm)](https://www.npmjs.com/package/opencode-google-antigravity-auth)
+- [Google AI Forum — OAuth Issues](https://discuss.ai.google.dev)
+
+

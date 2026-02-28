@@ -41,4 +41,21 @@
 - [opencode-google-antigravity-auth (npm)](https://www.npmjs.com/package/opencode-google-antigravity-auth)
 - [Google AI Forum — OAuth Issues](https://discuss.ai.google.dev)
 
+## Internal Doc Pages
+- [Getting Started](./getting-started.md)
+- [Features](./features.md)
+- [Agents](./agents.md)
+- [Authentication](./authentication.md)
+- [Browser Extension](./browser-extension.md)
+- [Skills Guide](./skills-guide.md)
+- [MCP Integration](./mcp-integration.md)
+- [Android Studio](./android-studio.md)
+- [Commands](./commands.md)
+- [Best Practices](./best-practices.md)
+- [Troubleshooting](./troubleshooting.md)
+- [Changelog](./changelog.md)
+- [Antigravity vs Cursor](./vs-cursor.md)
+- [Antigravity vs Claude Code](./vs-claude-code.md)
+
+
 

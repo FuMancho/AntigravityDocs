@@ -17,8 +17,9 @@
 - [FAQ](https://antigravity.im/faq)
 - [Download](https://antigravity.im/download)
 - [Comparison (vs Cursor/Windsurf)](https://antigravity.im/comparison)
+- [Open Source](https://antigravity.im/opensource)
+- [Privacy Policy](https://antigravity.im/privacy)
 - [Blog](https://antigravity.im/blog)
-- [Support](https://antigravity.im/support)
 
 ## Google Developer Resources
 - [Official Blog Post](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/)

@@ -1,82 +1,70 @@
 # Google Antigravity Features
 
-## Agent Manager
+Discover how Antigravity's agent-first architecture revolutionizes the way you build software.
 
-The Agent Manager is Antigravity's "Mission Control" for orchestrating tasks and managing multiple autonomous agents. It provides:
+## Agent-First Architecture
 
-- Task delegation and monitoring
-- Multi-agent coordination
-- Progress tracking via artifacts
+Deploy autonomous agents that plan, execute, and verify complex tasks.
 
-## Editor View
+### Multi-Surface Integration
+Agents have direct access to your editor, terminal, and browser. They can open files, run commands, browse web pages, and produce artifacts of their work - all autonomously.
 
-A full-featured code editor (based on VS Code) with AI-native capabilities:
+### Task Planning & Execution
+Watch as agents autonomously plan complex features, break them into subtasks, implement code across multiple files, and verify their work through testing.
 
-- Intelligent code suggestions
-- Multi-file editing support
-- Integrated terminal
-- Browser subagent integration
+### Artifacts System
+Build trust through tangible deliverables. Agents generate task lists, implementation plans, screenshots, and browser recordings so you can verify their logic at a glance.
 
-## Artifacts & Verification
+### Learning Capability
+Agents treat learning as a core primitive, saving useful context and code snippets to a knowledge base to improve performance on future tasks.
 
-Agents generate transparent deliverables called **artifacts** to build trust:
+## Dual Interface Design
 
-| Artifact Type | Purpose |
-|---|---|
-| Task Lists | Track what needs to be done |
-| Implementation Plans | Propose approach before coding |
-| Screenshots | Visual proof of UI changes |
-| Browser Recordings | Demonstrate user flows |
-| Code Diffs | Show exactly what changed |
+Switch seamlessly between Editor View and Agent Manager.
 
-## Multi-Surface Integration
+### Editor View
+A state-of-the-art, AI-powered IDE experience with familiar features for synchronous workflow.
+- Smart tab completions powered by Gemini 3 Pro
+- Inline AI commands for quick edits and refactoring
+- Multi-file editing with contextual awareness
+- Integrated terminal with AI assistance
 
-Agents operate across three surfaces:
+### Agent Manager
+High-level mission control for spawning and orchestrating multiple agents across workspaces.
+- Deploy multiple agents for parallel task execution
+- Monitor agent progress and artifacts in real-time
+- Configure agent autonomy levels and permissions
+- Review and approve agent actions before execution
 
-```mermaid
-flowchart LR
-    A["Editor (Code)"] --> B["Terminal (Commands)"]
-    B --> C["Browser (UI Testing)"]
-    C --> A
-```
+## Deep Integration
 
-## Browser Subagent
+Agents interact with your entire development environment.
 
-Agents can interact with a real browser for:
+### Browser Integration
+Chrome extension allows agents to directly test and interact with web applications they're building.
+- Automated UI testing and validation
+- Visual regression detection
+- Screenshot capture for verification
+- Browser recording for debugging
 
-- UI testing and validation
-- Screenshot capture
-- Form interaction
-- Navigation and data extraction
+### Terminal Integration
+Configurable autonomy levels let you control how agents execute commands in your terminal.
+- Run build and test commands automatically
+- Install dependencies as needed
+- Execute scripts and deployment tasks
+- Artifact review before critical operations
 
 ## Multi-Model Support
 
-Antigravity supports multiple AI providers:
+Choose the right AI model for each task:
 
-- **Gemini 3.1 Pro** — Primary model (generous free tier)
-- **Gemini 3 Flash** — Fast, lightweight tasks
-- **Claude Sonnet 4.6 / Opus 4.6** — Anthropic models
-- **GPT-OSS-120B** — Open-source OpenAI variant
+- **Gemini 3 Pro:** Google's flagship model with generous rate limits (Default Model)
+- **Claude Sonnet 4.5:** Anthropic's advanced reasoning model (Fully Supported)
+- **OpenAI Models:** GPT-4 and other OpenAI models (Fully Supported)
 
-## Learning & Knowledge Base
+## Cross-Platform
 
-Agents maintain a knowledge base of:
-
-- Useful patterns and solutions
-- Project-specific context
-- Historical task outcomes
-
-## Rules and Workflows
-
-- **Rules:** Passive constraints governing agent behavior (e.g., "Always use TypeScript strict mode")
-- **Workflows:** Active, user-triggered sequences for specific tasks
-
-## Skills
-
-Lightweight, open-format extensions that let you extend agent capabilities with specialized functionalities.
-
-## See Also
-
-- [Getting Started](./getting-started.md) — Installation and setup
-- [Agents](./agents.md) — Deep dive into agent capabilities
-- [Commands](./commands.md) — Editor and agent commands
+Available on all major operating systems:
+- Windows
+- macOS
+- Linux

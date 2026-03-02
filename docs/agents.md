@@ -1,116 +1,70 @@
 # AI Agents in Google Antigravity
 
-## Agent-First Architecture
+Master the power of autonomous AI agents in Antigravity.
 
-Google Antigravity is built around autonomous agents that can independently handle complex development tasks. Users describe what they want, and agents handle the planning, coding, debugging, and verification.
+## What are Agents?
+
+Agents in Antigravity are autonomous AI assistants that can plan, execute, and verify complex development tasks across your editor, terminal, and browser. Unlike traditional code completion tools, agents can work independently on entire features while you focus on higher-level tasks.
+
+Each agent operates with configurable levels of autonomy, generating verifiable artifacts that help you build trust in their work.
 
 ## How Agents Work
 
-```mermaid
-flowchart TD
-    A["User describes task"] --> B["Agent plans approach"]
-    B --> C["Agent writes code"]
-    C --> D["Agent tests & validates"]
-    D --> E{Pass?}
-    E -->|Yes| F["Agent presents artifacts"]
-    E -->|No| C
-    F --> G["User reviews & approves"]
-```
+### 1. Task Understanding
+When you assign a task, the agent analyzes the request, examines your codebase context, and creates a detailed execution plan broken into manageable steps.
 
-## Agent Capabilities
+### 2. Autonomous Execution
+The agent executes the plan by writing code, running commands, testing in the browser, and making adjustments based on results - all while generating artifacts for verification.
 
-- **Code generation** — Write new files, functions, and modules
-- **File editing** — Modify existing code across multiple files
-- **Terminal commands** — Run builds, tests, and scripts
-- **Browser interaction** — Test UIs, capture screenshots
-- **Research** — Search the web for documentation and solutions
-- **Planning** — Break complex tasks into manageable steps
+### 3. Verification & Learning
+After completing tasks, agents verify their work through testing and visual inspection. They save useful patterns and context to a knowledge base for future reference.
 
-## Task Groups
+## Best Practices
 
-Group related tasks together to manage complex projects. Agents can work on multiple tasks within a group, sharing context and knowledge.
+**✅ Start with Clear Task Descriptions**
+- Good: "Create a React component for user authentication with email/password, include form validation, and add unit tests"
+- Avoid: "Make a login thing"
 
-## Multi-Agent Coordination
+**✅ Break Down Complex Tasks**
+For large features, decompose them into smaller, focused tasks. Agents perform best when working on well-scoped objectives.
 
-Multiple agents can work in parallel on different aspects of a project, coordinated by the Agent Manager.
+**✅ Review Artifacts Regularly**
+Check generated task lists, plans, and test results. Artifacts help you catch issues early and provide feedback to improve agent performance.
 
-## Providing Feedback
+**✅ Configure Appropriate Autonomy**
+For critical operations or unfamiliar codebases, require approval before terminal commands. Increase autonomy as you build confidence.
 
-You can guide agents mid-task by:
+## Using the Agent Manager
 
-- Approving or rejecting proposed changes
-- Providing additional context or constraints
-- Pausing and resuming agent work
-- Redirecting approach via feedback
+The Agent Manager is your mission control for orchestrating multiple agents across workspaces.
+
+### Spawning Agents
+Click "New Agent" and assign it to a specific workspace or task. You can run multiple agents in parallel for different features.
+
+### Monitoring Progress
+Track real-time progress, view generated artifacts, and see which files agents are modifying. Hover over agents to see detailed status.
+
+### Intervention Controls
+Pause agents, provide additional context, or manually approve pending actions. You maintain full control throughout execution.
 
 ## Advanced Techniques
 
 ### 🔄 Agent Chaining
-
-Have one agent create scaffolding, another implement logic, and a third write tests. Chain their outputs for complex multi-phase workflows:
-
-```
-Agent 1 (Scaffold)  → creates file structure and interfaces
-Agent 2 (Implement) → writes business logic across files
-Agent 3 (Test)      → generates unit and integration tests
-Agent 4 (Validate)  → runs tests and verifies coverage
-```
+Have one agent create scaffolding, another implement logic, and a third write tests. Chain their outputs for complex workflows.
 
 ### 📚 Knowledge Base
-
-Agents maintain a knowledge base of useful patterns learned from past tasks:
-
-- **Code snippets** — Reusable solutions to common problems
-- **Architecture patterns** — Project-specific conventions
-- **Debugging solutions** — Fix patterns for recurring issues
-- **API patterns** — Endpoint naming, response formats
-
-Manually save important patterns to ensure consistent application across sessions.
+Manually save code patterns, architecture decisions, or common solutions to your agent's knowledge base for consistent application.
 
 ### 🎯 Model Selection
-
-Different models excel at different task types:
-
-| Task | Recommended Model | Why |
-|---|---|---|
-| General coding | Gemini 3 Pro | Balanced speed/quality |
-| Fast iteration | Gemini 3 Flash | Low latency |
-| Complex reasoning | Claude Sonnet 4.5 | Deep analysis |
-| Creative solutions | GPT-OSS-120B | Alternative perspective |
-
-Switch models per-task to optimize for your specific needs.
+Use Gemini 3 Pro for general tasks, Claude Sonnet for complex reasoning, and GPT-4 for creative solutions. Match models to task types.
 
 ### 🔍 Iterative Refinement
+After reviewing agent output, provide specific feedback and have the agent iterate. This builds better patterns over time.
 
-After reviewing agent output, provide specific feedback and have the agent iterate. Each iteration builds better patterns:
+## Common Use Cases
 
-1. Agent produces initial implementation
-2. You review artifacts (code, screenshots, test results)
-3. Provide targeted feedback: *"Use observer pattern instead of callbacks"*
-4. Agent refines and re-validates
-5. Repeat until satisfied
-
-## Using the Agent Manager
-
-### Spawning Agents
-
-Create new agents from the Agent Manager panel. Each agent operates independently with its own context and task.
-
-### Monitoring Progress
-
-View real-time progress across all active agents. Each agent's artifacts update live, letting you spot issues early.
-
-### Intervention Controls
-
-- **Pause** — Temporarily halt an agent's execution
-- **Resume** — Continue where the agent left off
-- **Cancel** — Stop the agent and discard pending changes
-- **Redirect** — Change the agent's approach mid-task
-
-## See Also
-
-- [Features](./features.md) — Complete feature overview
-- [Best Practices](./best-practices.md) — Working effectively with agents
-- [Skills Guide](./skills-guide.md) — Building custom agent behaviors
-- [Browser Extension](./browser-extension.md) — Browser-based testing
-
+- **Feature Development:** Build complete features from specification to tests
+- **Refactoring:** Modernize codebases, apply patterns, update dependencies
+- **Test Generation:** Create comprehensive unit, integration, and E2E tests
+- **Documentation:** Generate API docs, README files, and code comments
+- **Bug Fixing:** Investigate issues, identify root causes, implement fixes

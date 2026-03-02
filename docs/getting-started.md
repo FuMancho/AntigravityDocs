@@ -1,53 +1,105 @@
 # Getting Started with Google Antigravity
 
-## What is Google Antigravity?
+## Quick Start
 
-Google Antigravity is an agent-first AI development platform that enables developers to delegate complex coding tasks to autonomous AI agents. Rather than traditional autocomplete, Antigravity agents can plan, execute, validate, and iterate on engineering tasks with minimal human intervention.
+Follow these simple steps to install and configure Antigravity on your system.
 
-## Installation
+### 1. System Requirements
 
-> [!NOTE]
-> Google Antigravity is available for free in public preview for Windows, macOS, and Linux.
+Before installing, make sure your system meets these requirements:
 
-1. Download the installer from [antigravity.google/download](https://antigravity.google/download)
-2. Run the installer for your platform
-3. Launch Antigravity and link your Google account
-4. Select a supported model to begin
+**Windows**
+- Windows 10 or later
+- 4GB RAM minimum
+- 500MB disk space
 
-### System Requirements
+**macOS**
+- macOS 10.15+
+- 4GB RAM minimum
+- 500MB disk space
 
-| Platform | Requirements |
-|---|---|
-| macOS | Version 12 (Monterey) or newer |
-| Windows | Windows 10 64-bit or newer |
-| Linux | glibc >= 2.28, glibcxx >= 3.4.25 |
+**Linux**
+- Ubuntu 20.04+ or equivalent
+- 4GB RAM minimum
+- 500MB disk space
 
-## Development Modes
+### 2. Download Antigravity
 
-Antigravity offers three primary development modes:
+Visit the official download page and select your operating system:
+[https://antigravity.google/download](https://antigravity.google/download)
 
-### Agent-Driven Development (Autopilot)
+- **Windows:** Download the `.exe` installer (x64 or ARM64)
+- **macOS:** Download the `.dmg` file
+- **Linux:** Download the `.deb` or `.rpm` package
 
-You describe the task, and the AI autonomously writes code, creates files, and executes commands.
+### 3. Install the Application
 
-### Review-Driven Development
+**Windows Installation**
+1. Double-click the downloaded `.exe` file
+2. Follow the installation wizard (takes 3-5 minutes)
+3. Default installation path: `C:\Program Files\Google\Antigravity`
+4. Launch Antigravity from Start Menu
 
-The AI requests permission before performing most actions, giving you control at each step.
+**macOS Installation**
+1. Open the downloaded `.dmg` file
+2. Drag Antigravity to Applications folder
+3. Open from Applications (allow in Security settings if needed)
 
-### Agent-Assisted Development
+**Linux Installation**
+```bash
+# Debian/Ubuntu
+sudo dpkg -i antigravity_*.deb
+
+# Fedora/RHEL
+sudo rpm -i antigravity_*.rpm
+```
+
+### 4. Initial Setup
+
+When you first launch Antigravity:
+
+1. **Choose setup flow:**
+   - Import settings from VS Code or Cursor
+   - Start with a fresh configuration
+2. **Select theme:** Choose between Light, Dark, or High Contrast themes
+3. **Sign in:** Use your personal Gmail account (required for public preview)
+4. **Configure AI model:** Select your preferred default model (Gemini 3 Pro recommended)
+
+### 5. Install Browser Extension
+
+To enable agent browser integration:
+
+1. Start a conversation in the Antigravity Playground
+2. Click "Setup" when prompted for browser extension
+3. Follow the link to Chrome Web Store
+4. Click "Add to Chrome" to install the extension
+5. Grant necessary permissions for agent control
 
 > [!TIP]
-> This is the recommended mode for most users — it keeps you in control while the AI provides helpful automations.
+> The browser extension is optional but highly recommended for web development tasks.
 
-## First Steps
+### 6. Deploy Your First Agent
 
-1. Open the Antigravity IDE
-2. Choose a development mode during initial setup
-3. Open or create a project
-4. Use the Agent Manager to delegate your first task
+Try these starter tasks:
 
-## See Also
+- **Simple Task:** "Create a hello world React component with TypeScript"
+- **Complex Task:** "Build a todo app with React, add styling with Tailwind, and create unit tests"
 
-- [Features](./features.md) — Core platform capabilities
-- [Agents](./agents.md) — Understanding autonomous agents
-- [Best Practices](./best-practices.md) — Tips for effective development
+## Next Steps
+
+- [Read the Docs](./documentation.md) — Explore comprehensive documentation and API references
+- [Learn About Agents](./agents.md) — Master agent orchestration and best practices
+- [Browser Extension Guide](./browser-extension.md) — Deep dive into browser integration capabilities
+
+## Common Issues
+
+**Installation fails on Windows**
+Run the installer as Administrator and temporarily disable antivirus software.
+
+**Cannot sign in with Gmail**
+Antigravity public preview requires a personal Gmail account. Workspace accounts are not supported yet.
+
+**Browser extension not working**
+Make sure you've granted all required permissions and restarted Chrome after installation.
+
+Need more help? Check out our [FAQ page](./faq.md).

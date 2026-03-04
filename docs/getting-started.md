@@ -87,7 +87,6 @@ Try these starter tasks:
 
 ## Next Steps
 
-- [Read the Docs](./documentation.md) — Explore comprehensive documentation and API references
 - [Learn About Agents](./agents.md) — Master agent orchestration and best practices
 - [Browser Extension Guide](./browser-extension.md) — Deep dive into browser integration capabilities
 

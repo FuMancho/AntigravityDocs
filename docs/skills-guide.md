@@ -137,4 +137,3 @@ description: Enforce REST API naming and response conventions
 
 - [Features](./features.md) — Core platform capabilities including rules and workflows
 - [Agents](./agents.md) — Agent capabilities and advanced techniques
-- [Best Practices](./best-practices.md) — General development best practices

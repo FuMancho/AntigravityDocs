@@ -14,7 +14,7 @@ This repository contains curated, well-structured documentation for Google Antig
 | [Features](docs/features.md) | Core platform capabilities |
 | [Agents](docs/agents.md) | Autonomous AI agent workflows |
 | [Commands](docs/commands.md) | Editor and agent commands reference |
-| [Best Practices](docs/best-practices.md) | Tips for effective agent-driven development |
+| [Best Practices](docs/skills-guide.md#best-practices) | Tips for effective agent-driven development |
 | [Troubleshooting](docs/troubleshooting.md) | Common issues and solutions |
 | [Official Links](docs/official-links.md) | Verified links to official documentation |
 
